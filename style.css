@@ -1,0 +1,132 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+}
+
+.maincontainer{
+    width: 100%;
+}
+
+.logotitlecontainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 2rem;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.mainbox{
+    max-width: 285px;
+    margin: -10px auto;
+    display: flex;
+    flex-direction: column;
+    background-color: #f6f8fa;
+    border: 1px solid #d0d7deb3;
+    padding: 16px;
+    font-size: 14px;
+    border-radius: 6px;
+    color: #1f2328;
+
+}
+
+.mainlabel{
+    margin: 0 0 8px;
+    font-weight: 400;
+    color: #1f2328;
+}
+
+.maininput{
+    margin: 4px 0 16px;
+    padding: 5px 12px;
+    border: 1px solid #d0d7de;
+    border-radius: 6px;
+    transition: all 1ms linear;
+}
+
+.maininput:focus{
+    outline: 2px solid #0969da;
+}
+
+.forgotpasswordbtn{
+    float: right;
+    text-decoration-line: none;
+    color:#0969da ;
+    font-size: 12px;
+}
+
+.signinbutton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration-line: none;
+    width: 100%;
+    background-color: #1f883d;
+    color: #ffffff;
+    border: none;
+    border-radius: 6px;
+    padding: 5px 16px;
+    font-size: 14px;
+    font-weight: 500;
+
+}
+
+.signinbutton:hover{
+    background-color: rgb(31, 125, 46);
+}
+
+
+
+.anothercontainer{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 285px;
+    margin: 32px auto 0px;
+    padding: 16px;
+    border: 1px solid #d0d7de;
+    border-radius: 6px;
+    text-decoration: none;
+    background-color: #ffffff;
+}
+
+.passkeysignin{
+    text-decoration: none;
+    color: #0969da;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.accountcreation{
+    margin-top: 4px;
+    font-size: 14px;
+}
+
+.accountcreation a{
+    text-decoration: none;
+    color: #0969da;
+}
+
+/* hovereffect */
+
+.accountcreation a:hover{
+text-decoration: underline  #0969da;
+}
+
+.passkeysignin:hover{
+    text-decoration: underline #0969da
+}
+
+
+
+
+
+
+
+
+
